@@ -1,3 +1,22 @@
+html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  width: 100vh;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .hidden {
   display: none;
 }
@@ -17,4 +36,19 @@
   font-size: 16px;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.4);
+}
+
+#bg {
+  background-size: cover;
+}
+
+#clock {
+  margin: 0;
+  padding: 0;
+  font-size: 100px;
+}
+
+.clock__time {
+  margin: 0;
+  padding: 0;
 }
