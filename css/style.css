@@ -1,0 +1,20 @@
+.hidden {
+  display: none;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+}
+
+#quote span:first-child {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#quote span:last-child {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.4);
+}
